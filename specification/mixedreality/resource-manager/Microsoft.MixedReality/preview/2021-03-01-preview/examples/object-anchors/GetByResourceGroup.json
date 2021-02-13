@@ -1,6 +1,7 @@
 {
   "parameters": {
     "subscriptionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "resourceGroupName": "MyResourceGroup",
     "api-version": "2021-03-01-preview"
   },
   "responses": {
@@ -13,10 +14,13 @@
               "accountDomain": "mixedreality.azure.com"
             },
             "tags": {},
+            "identity": {
+              "type": "SystemAssigned"
+            },
             "location": "eastus2euap",
-            "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/alpha",
+            "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/objectAnchorsAccounts/alpha",
             "name": "alpha",
-            "type": "Microsoft.MixedReality/spatialAnchorsAccounts"
+            "type": "Microsoft.MixedReality/objectAnchorsAccounts"
           },
           {
             "properties": {
@@ -24,10 +28,13 @@
               "accountDomain": "mixedreality.azure.com"
             },
             "tags": {},
+            "identity": {
+              "type": "SystemAssigned"
+            },
             "location": "eastus2euap",
-            "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/omega",
+            "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/objectAnchorsAccounts/omega",
             "name": "omega",
-            "type": "Microsoft.MixedReality/spatialAnchorsAccounts"
+            "type": "Microsoft.MixedReality/objectAnchorsAccounts"
           }
         ],
         "nextLink": "https://aka.ms/&^FDKKAR"

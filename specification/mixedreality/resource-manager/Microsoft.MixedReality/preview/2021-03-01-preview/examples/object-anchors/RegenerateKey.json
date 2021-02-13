@@ -11,8 +11,8 @@
   "responses": {
     "200": {
       "body": {
-        "primaryKey": "************",
-        "secondaryKey": "************"
+        "primaryKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "secondaryKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       }
     }
   }

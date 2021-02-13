@@ -13,10 +13,13 @@
           "accountDomain": "mixedreality.azure.com"
         },
         "tags": {},
+        "identity": {
+          "type": "SystemAssigned"
+        },
         "location": "eastus2euap",
-        "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/MyAccount",
+        "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/objectAnchorsAccounts/MyAccount",
         "name": "MyAccount",
-        "type": "Microsoft.MixedReality/spatialAnchorsAccounts"
+        "type": "Microsoft.MixedReality/objectAnchorsAccounts"
       }
     }
   }
